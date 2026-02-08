@@ -13,6 +13,6 @@ typedef struct listint_s
     struct listint_s *next;
 } listint_t;
 
-size_t print_list(const listint_t *h);
+void print_list(const listint_t *h);
 
 #endif /*SORT_H*/
