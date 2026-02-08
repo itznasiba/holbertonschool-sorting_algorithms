@@ -19,5 +19,6 @@ void bubble_sort(int *array, size_t n)
 				array[j + 1] = temp;
 			}
 		}
+		print_array(array, n);
 	}
 }
