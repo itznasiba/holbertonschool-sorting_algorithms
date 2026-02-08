@@ -14,5 +14,6 @@ typedef struct listint_s
 } listint_t;
 
 void print_list(const listint_t *h);
+void insertion_sort_list(listint_t **list);
 
 #endif /*SORT_H*/
