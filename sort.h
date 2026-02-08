@@ -6,6 +6,13 @@
 void print_array(const int *array, size_t n);
 void bubble_sort(int *array, size_t n);
 
+/**
+ * struct listint_s - a doubly linked list node
+ * @n: a value stored in node
+ * @prev: a pointer to previous element
+ * @next: a pointer to next element
+ */
+
 typedef struct listint_s
 {
 	int n;
