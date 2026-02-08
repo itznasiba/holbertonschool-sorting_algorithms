@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-print_array(array, n)
+void print_array(const int *array, size_t n)
 {
-	int i = 0;
+	size_t i = 0;
 
 	while (i < n - 1)
 	{

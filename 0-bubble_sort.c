@@ -1,11 +1,11 @@
-#include <studio.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include "sort.h"
 
-bubble_sort(array, n)
+void bubble_sort(int *array, size_t n)
 {
-	int i;
-	int j;
+	size_t i;
+	size_t j;
 	int temp;
 
 	for (i = 0; i < n - 1; i++)

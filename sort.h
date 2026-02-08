@@ -1,7 +1,9 @@
 #ifndef SORT_H
 #define SORT_H
 
-print_array(array, n);
-bubble_sort(array, n);
+#include <stddef.h>
+
+void print_array(const int *array, size_t n);
+void bubble_sort(int *array, size_t n);
 
 #endif /*SORT_H*/
