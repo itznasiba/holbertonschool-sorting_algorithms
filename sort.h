@@ -6,4 +6,11 @@
 void print_array(const int *array, size_t n);
 void bubble_sort(int *array, size_t n);
 
+typedef struct listint_s
+{
+    int n;
+    struct listint_s *prev;
+    struct listint_s *next;
+} listint_t;
+
 #endif /*SORT_H*/
