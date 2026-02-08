@@ -34,6 +34,6 @@ void insertion_sort_list(listint_t **list)
 				*list = insert;
 			print_list(*list);
 		}
-		current = tmp
+		current = tmp;
 	}
 }
