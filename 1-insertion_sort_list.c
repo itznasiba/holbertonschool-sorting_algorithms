@@ -2,6 +2,13 @@
 #include <stdlib.h>
 #include "sort.h"
 
+/**
+ * insertion_sort_list - sorts list
+ * @list: list
+ *
+ * Return: void
+ */ 
+
 void insertion_sort_list(listint_t **list)
 {
 	listint_t *current, *insert, *tmp;
