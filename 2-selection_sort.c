@@ -2,6 +2,14 @@
 #include <stdlib.h>
 #include "sort.h"
 
+/**
+ * selection_sort - sorts array
+ * @array: array
+ * @size: size of array
+ *
+ * Return: void
+ */
+
 void selection_sort(int *array, size_t size)
 {
 	size_t i, j, min;
