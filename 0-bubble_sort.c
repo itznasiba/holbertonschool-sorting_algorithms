@@ -2,6 +2,14 @@
 #include <stdlib.h>
 #include "sort.h"
 
+/**
+ * bubble_sort - sorts an array
+ * @array: an array
+ * @n: size of array
+ *
+ * Return: void
+ */
+
 void bubble_sort(int *array, size_t n)
 {
 	size_t i;
